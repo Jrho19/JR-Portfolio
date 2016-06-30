@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>OFAM Daily</title>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
-    <script src="https://use.fontawesome.com/3a0d0daa04.js"></script>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <header id="main_navigation" class="clearfix">
-    <a href="#", class="name">Oasis Ministries</a>
-    <nav>
-      <%= link_to "Articles", posts_path %>
-      <a href="#">Projects</a>
-      <a href="#">Contacts</a>
-    </nav>
-  </header>
+  <head>
+    <title>OFAM Daily</title>
+      <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+      <script src="https://use.fontawesome.com/3a0d0daa04.js"></script>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <header id="main_navigation" class="clearfix">
+      <%= link_to 'Oasis Ministries', root_path, class: "name" %>
+      <nav>
+        <%= link_to "Articles", posts_path %>
+        <a href="#">Projects</a>
+        <a href="#">Contacts</a>
+      </nav>
+    </header>
 
-<%= yield %>
+    <%= yield %>
 
-</body>
+    <footer id="main_footer">
+      <p class="copyright">&copy; 2016 Oasis Ministries</p>
+      <nav>
+        <a href="https://www.facebook.com/pages/Oasis-Of-The-Fresh-Anointing/429643217076145" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </nav>
+    </footer>
+
+  </body>
 </html>
