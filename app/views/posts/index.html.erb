@@ -9,7 +9,7 @@
     </div>
   <% end %>
 
-  <div class="post">
+  <!-- <div class="post">
     <p class="date">Thursday June 30th</p>
     <h2><a href="#">The DO List</a></h2>
     <hr>
@@ -20,11 +20,6 @@
     <h2><a href="#">The DO List</a></h2>
     <hr>
   </div>
-</div>
+</div> -->
 
-<div class="pagination">
-  <span class="previous_page disabled">Previous</span>
-  <em class="current">1</em>
-  <a rel="next" href="#">2</a>
-  <a class="next_page" href="#">Next</a>
-</div>
+<%= will_paginate @posts %>
