@@ -13,20 +13,20 @@
   1. What are we building? We are building a personal site. A place where we can blog, share examples of our work, and have     people contact us.
   2. Who are we building it for? We are building it for ourselves, but also the community.    Sharing what we are learning by    blogging is a great way to learn for ourselves, but we teach others in the process. Show potential employers that we       know what we are doing.
   3. What features do we want to have?
-  4. 
-    *Posts*
+  
+    _Posts_
       - Create / Edit / Destroy
       - Markdown
       - Syntax highlighting
       - Comments (Disqus)
     
-    *Projects*
+    _Projects_
       - Create / Edit / Destroy
       - Contact
       - Contact form
       - Sendgrid
     
-    *User (Devise)*
+    _User (Devise)_
 
 ##User Stories
 
@@ -42,11 +42,11 @@
     
 ##Modeling our Data
 
-*Post* title:string content:string
+_Post_ title:string content:string
 
-*Project* title:string description:text link:string
+_Project_ title:string description:text link:string
 
-*User*
+_User_
 
 ##Think through the pages we need in our app
 
