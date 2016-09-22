@@ -7,6 +7,7 @@
 2. User Stories
 3. Model our Data
 4. Think through the pages we need in our app
+ 
 ##Questions
 
   1. What are we building? We are building a personal site. A place where we can blog, share examples of our work, and have     people contact us.
@@ -23,6 +24,7 @@
       - Contact form
       - Sendgrid
     User (Devise)
+
 ##User Stories
 
   As a blank, I want to be able to blank, so that blank.
@@ -34,6 +36,7 @@
     - As a user, I want to show the visitors and potential employers examples of my work, or stuff I’ve built.
     - As a user, I want to be able to have visitors contact me through a form on my site.
     - As a user, I want visitors to be able to leave comments on my posts.
+    
 ##Modeling our Data
 
 Post title:string content:string
