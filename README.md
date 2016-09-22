@@ -14,19 +14,19 @@
   2. Who are we building it for? We are building it for ourselves, but also the community.    Sharing what we are learning by    blogging is a great way to learn for ourselves, but we teach others in the process. Show potential employers that we       know what we are doing.
   3. What features do we want to have?
   
-    _Posts_
+    **Posts**
       - Create / Edit / Destroy
       - Markdown
       - Syntax highlighting
       - Comments (Disqus)
     
-    _Projects_
+    **Projects**
       - Create / Edit / Destroy
       - Contact
       - Contact form
       - Sendgrid
     
-    _User (Devise)_
+    **User (Devise)**
 
 ##User Stories
 
@@ -42,11 +42,11 @@
     
 ##Modeling our Data
 
-_Post_ title:string content:string
+**Post** title:string content:string
 
-_Project_ title:string description:text link:string
+**Project** title:string description:text link:string
 
-_User_
+**User**
 
 ##Think through the pages we need in our app
 
