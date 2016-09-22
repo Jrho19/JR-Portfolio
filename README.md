@@ -1,4 +1,4 @@
-Planning our application
+#Planning our application
 
 1. Answer Questions
   - What are we building?
@@ -7,10 +7,10 @@ Planning our application
 2. User Stories
 3. Model our Data
 4. Think through the pages we need in our app
-Questions
+##Questions
 
-  1. What are we building? We are building a personal site. A place where we can blog, share examples of our work, and have people contact us.
-  2. Who are we building it for? We are building it for ourselves, but also the community.    Sharing what we are learning by blogging is a great way to learn for ourselves, but we teach others in the process. Show potential employers that we know what we are doing.
+  1. What are we building? We are building a personal site. A place where we can blog, share examples of our work, and have     people contact us.
+  2. Who are we building it for? We are building it for ourselves, but also the community.    Sharing what we are learning by    blogging is a great way to learn for ourselves, but we teach others in the process. Show potential employers that we       know what we are doing.
   3. What features do we want to have?
     Posts
       - Create / Edit / Destroy
@@ -23,7 +23,7 @@ Questions
       - Contact form
       - Sendgrid
     User (Devise)
-User Stories
+##User Stories
 
   As a blank, I want to be able to blank, so that blank.
 
@@ -34,7 +34,7 @@ User Stories
     - As a user, I want to show the visitors and potential employers examples of my work, or stuff I’ve built.
     - As a user, I want to be able to have visitors contact me through a form on my site.
     - As a user, I want visitors to be able to leave comments on my posts.
-Modeling our Data
+##Modeling our Data
 
 Post title:string content:string
 
@@ -42,7 +42,7 @@ Project title:string description:text link:string
 
 User
 
-Think through the pages we need in our app
+##Think through the pages we need in our app
 
 - Home
 - Posts#index
